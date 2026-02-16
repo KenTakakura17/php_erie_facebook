@@ -1,0 +1,135 @@
+.stick {
+    display: inline-flex;
+    background-color: color rgb(252, 235, 250);
+}
+
+.stick2 {
+    border: 1px solid rgb(184, 183, 183);
+    box-shadow: 0px 0px 10px rgb(184, 183, 183);
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.colorfont {
+    color: #0866ff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+.colorfont2 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.design {
+    margin: 150px;
+    margin-left: 350px;
+    font-size: 39px;
+
+}
+
+.bordercollat {
+    border: 2px solid grey;
+    margin-top: 100px;
+}
+
+.only {
+    margin-left: 700px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.type1 {
+    padding: 15px;
+    padding-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 6px;
+    font-size: 19px;
+}
+
+.type2 {
+    padding: 15px;
+    padding-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 6px;
+    font-size: 19px;
+}
+
+.type3 {
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 120px;
+    color: rgb(0, 47, 255);
+
+}
+
+.click {
+    text-align: center;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 138px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(4, 121, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid rgb(184, 183, 183);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.click1 {
+    padding: 15px;
+    margin-left: 65px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0, 199, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid rgb(184, 183, 183);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.BOTBOT {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 560px;
+    left: 956px;
+    font-weight: bold;
+}
+
+.BOTBOT1 {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 560px;
+    left: 1068px;
+}
+
+.pxpx {
+    border: 1px solid rgb(184, 183, 183);
+    margin-bottom: 20px;
+}
+
+.click:hover {
+    background-color: rgb(32, 136, 255);
+    transform: scale(1)
+}
+
+.click1:hover {
+    background-color: rgb(0, 173, 29);
+    transform: scale(1)
+}
+
+.type3:hover {
+    text-decoration: underline;
+}
