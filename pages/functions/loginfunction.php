@@ -2,9 +2,9 @@
 
 include '../../config/include.php';
 
-if (isset($_POST['username']) && isset($_POST['password'])) {
+if (isset($_POST['user_name']) && isset($_POST['password'])) {
 
-    $username = $_POST['username'];
+    $username = $_POST['user_name'];
     $Password = $_POST['password'];
 
     $result = loginAuth($username, $Password);

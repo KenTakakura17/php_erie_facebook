@@ -29,7 +29,7 @@ function loginAuth($usernames, $passwords)
 {
     include "connection.php";
 
-    $sql = "SELECT * FROM users WHERE username = :username AND password = :password ";
+    $sql = "SELECT * FROM facebook_users WHERE username = :username AND password = :password ";
     $stmnt = $conn->prepare($sql);
     $stmnt -> execute([
         "username" => $usernames,

@@ -38,14 +38,13 @@ if (isset($_GET['status']) && $_GET['status'] == "false") {
     </div>
     <div class="stick2">
         <form action="functions/loginfunction.php" method="POST">
-            <input type="text" id="username" class="type1" name="username" placeholder="Email or phone number"><br><br>
+            <input type="text" id="user_name" class="type1" name="user_name" placeholder="Email or phone number"><br><br>
             <input type="Password" id="password" class="type2" name="password" placeholder="Password"><br><br>
             <button class="click" type="submit">Log in</button>
             <p class="type3">Forgot password?</p>
             <p class="BOTBOT">Create a Page
             <p class="BOTBOT1">for a celebrity, brand or business.</p>
-            </p>
-            <a href="createpage.php" class="click1">Create new account</a>
+            <a href="Createaccount.php" class="click1">Create new account</a>
         </form>
 
 

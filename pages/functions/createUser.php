@@ -12,10 +12,16 @@ if (isset($_POST['user_name']) && isset($_POST['email']) && isset($_POST['first_
     $birthdate = $_POST['birthdate'];
     $gender = $_POST['gender'];
     $password = $_POST['password'];
+    $confirm = $_POST['confirm_password'];
 
-    $sql = "INSERT INTO users (name, email, first_name, last_name, mobile_num, birthdate, gender, password)
+    if ($password !== $confirm) {
+    echo "<script> alert('Passwords do not match. Please try again.')</script>";
+    exit();
+}
+
+    $sql = "INSERT INTO facebook_users (username, email, first_name, last_name, mobile_num, birthdate, gender, password)
             VALUES (
-                :name,
+                :username,
                 :email,
                 :first_name,
                 :last_name,
@@ -26,7 +32,7 @@ if (isset($_POST['user_name']) && isset($_POST['email']) && isset($_POST['first_
 
     $stmnt = $conn->prepare($sql);
     $stmnt->execute([
-        "name" => $user_name,
+        "username" => $user_name,
         "email" => $email,
         "first_name" => $first_name,
         "last_name" => $last_name,
@@ -37,7 +43,7 @@ if (isset($_POST['user_name']) && isset($_POST['email']) && isset($_POST['first_
     ]);
 
     if ($stmnt) {
-        echo "<script> window.location.href = '../dashboard.php'</script>";
+        echo "<script> window.location.href = '../login.php'</script>";
     } else {
         echo "not save";
     }

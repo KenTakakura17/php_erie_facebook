@@ -10,23 +10,23 @@ include "resources/header.php"
     ?>
 
     <div class="crtprod">
-        <h1>Create User</h1>
+        <h1 class="">Create User</h1>
         <form action="functions/createUser.php" method="POST">
-            <label for="">Username</label>
+            <label for="" class="">Username</label>
             <input type="text" name="user_name">
-            <label for="">email</label>
+            <label for="" class="">email</label>
             <input type="text" name="email">
-            <label for="">first_name</label>
+            <label for="" class="">first_name</label>
             <input type="text" name="first_name">
-            <label for="">last_name</label>
+            <label for="" class="">last_name</label>
             <input type="text" name="last_name">
-            <label for="">mobile_num</label>
+            <label for="" class="">mobile_num</label>
             <input type="text" name="mobile_num">
-            <label for="">birthdate</label>
+            <label for="" class="">birthdate</label>
             <input type="text" name="birthdate">
-            <label for="">gender</label>
+            <label for="" class="">gender</label>
             <input type="text" name="gender">
-            <label for="">password</label>
+            <label for="" class="">password</label>
             <input type="text" name="password">
             <button>Submit</button>
         </form>
